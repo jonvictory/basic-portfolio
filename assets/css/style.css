@@ -1,6 +1,5 @@
 body {
-    background-color: #ffffff;
-    border-color: #dddddd;
+    background-color: #666666;
 }
 
 header {
@@ -8,10 +7,17 @@ header {
     border-color: #cccccc;
 }
 
-p {
-    color: #777777;
-}
-
 footer {
     background-color: #666666;
+}
+
+.container {
+    text-align: center;
+}
+.content {
+    background-color: #ffffff;
+    border-color: #dddddd;
+    color: #777777;
+    margin: 0 auto;
+    width: 960px;
 }
