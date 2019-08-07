@@ -1,23 +1,46 @@
 body {
-    background-color: #666666;
+    background-color: #cccccc;
 }
 
-header {
+header{
     background-color: #ffffff;
     border-color: #cccccc;
+    border-bottom: solid;
+    border-width: 2px;
 }
 
 footer {
     background-color: #666666;
 }
 
-.container {
-    text-align: center;
+.namecontainer {
+    width: 960px;
+    margin: 0 auto;
 }
-.content {
+.name {
+    background-color: #4aaaa5;
+
+}
+.main {
     background-color: #ffffff;
     border-color: #dddddd;
     color: #777777;
     margin: 0 auto;
     width: 960px;
+    padding: 15px;
 }
+
+.h2container {
+    border-bottom: #cccccc;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    color: #4aaaa5;
+    padding-bottom: 5px;
+    float: top;
+}
+
+.content {
+    padding: 5px;
+    float: bottom;
+}
+
