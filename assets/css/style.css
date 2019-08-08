@@ -1,16 +1,22 @@
 body {
     background-color: #cccccc;
+    height: 100%;
 }
 
 
 
 footer {
     background-color: #666666;
+    border-top: solid;
+    border-color:  #4aaaa5;
+    Border-width: 4px;
+    padding: 10px 0;
+    text-align: center;
 }
 
 .wrapper{
     background-color: #ffffff;
-    border-color: #aaaaaa;
+    border-color: #cfcece;
     border-bottom: solid;
     border-width: 1px;
     height: 80px;
@@ -20,8 +26,8 @@ footer {
 .namecontainer {
     width: 960px;
     margin: 0 auto;
-    padding-right: 5px;
     height: 100%;
+
 }
 
 .name {
@@ -29,6 +35,7 @@ footer {
     text-align: center;
     color: white;
     padding-left: 5px;
+    padding-right: 5px;
     float: left;
 }
 
@@ -38,15 +45,28 @@ text-align: right;
 vertical-align: center;
 }
 
+.bigcontainer {
+    padding-top: 10px;
+    padding-bottom: 18em;
+    background-image: url('../images/BACKGROUND.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
 .main {
     background-color: #ffffff;
     border-color: #dddddd;
     color: #777777;
     margin: 0 auto;
     width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    clear: left;
     padding-left: 5px;
     padding-right: 5px;
-    clear: left;
+    padding-top: 2px;
+    padding-bottom: 10em;
 }
 
 .h2container {
@@ -55,11 +75,11 @@ vertical-align: center;
     border-bottom-width: 3px;
     color: #4aaaa5;
     padding-bottom: 5px;
+    vertical-align: center;
     float: top;
 }
 
 .content {
-    padding: -5px;
     float: bottom;
 }
 
