@@ -2,32 +2,51 @@ body {
     background-color: #cccccc;
 }
 
-header{
-    background-color: #ffffff;
-    border-color: #cccccc;
-    border-bottom: solid;
-    border-width: 2px;
-}
+
 
 footer {
     background-color: #666666;
 }
 
+.wrapper{
+    background-color: #ffffff;
+    border-color: #aaaaaa;
+    border-bottom: solid;
+    border-width: 1px;
+    height: 80px;
+    width: 100%
+}
+
 .namecontainer {
     width: 960px;
     margin: 0 auto;
+    padding-right: 5px;
+    height: 100%;
 }
+
 .name {
     background-color: #4aaaa5;
-
+    text-align: center;
+    color: white;
+    padding-left: 5px;
+    float: left;
 }
+
+.menu {
+float: right;
+text-align: right;
+vertical-align: center;
+}
+
 .main {
     background-color: #ffffff;
     border-color: #dddddd;
     color: #777777;
     margin: 0 auto;
     width: 960px;
-    padding: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    clear: left;
 }
 
 .h2container {
@@ -40,7 +59,7 @@ footer {
 }
 
 .content {
-    padding: 5px;
+    padding: -5px;
     float: bottom;
 }
 
