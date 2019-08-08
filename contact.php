@@ -1,3 +1,20 @@
+<?php
+
+if($_POST["submit"]) {
+    $recipient="your@email.address";
+    $subject="Form to email message";
+    $sender=$_POST["sender"];
+    $senderEmail=$_POST["senderEmail"];
+    $message=$_POST["message"];
+
+    $mailBody="Name: $sender\nEmail: $senderEmail\n\n$message";
+
+    mail($recipient, $subject, $mailBody, "From: $sender <$senderEmail>");
+
+    $thankYou="<p>Thank you! Your message has been sent.</p>";
+}
+
+?>
 <!DOCTYPE html>
 <html>
     <header>
@@ -9,12 +26,7 @@
                 <h1>Jonathan Huynh</h1>
                 </div>
                 <div class="menu">
-                        <div class="menu">
-                                <ul class="nav">
-                                    <li class="nav"><a href="index.html">About Me</a></li>
-                                    <li class="nav"><a href="portfolio.html">Portfolio</a></li>
-                                    <li class="nav"><a href="contact.html"><b>Contact</b></a></p></li>
-                                </ul>
+                    <p style="text-align: center;"><a href="index.html">About Me</a> | <a href="portfolio.html">Portfolio</a> | <a href="contact.php"><b>Contact</b></a></p>
                 </div>
             </div>
         </div>
@@ -29,17 +41,17 @@
                 <div class="formcontainer">
                 <form action="contact.php" method="POST" enctype="text/plain">
                     Name:<br>
-                    <input size="75" type="text" name="name" style="float: center;">
+                    <input size="75" type="text" name="sender" style="float: center;">
                     <br>
                     <br>
                     E-mail:<br>
-                    <input size="75" type="text" name="mail">
+                    <input size="75" type="text" name="senderEmail">
                     <br>
                     <br>
                     Comments, questions, concerns:<br>
                     <textarea name="message" rows="10" cols="75"></textarea>
                     <br><br>
-                    <input type="submit" value="send">
+                    <input type="submit" name="submit">
                     <input type="reset" value="reset">
                 </form>
                 </div>
