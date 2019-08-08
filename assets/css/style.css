@@ -14,6 +14,18 @@ footer {
     text-align: center;
 }
 
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+  }
+  
+h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+  }
+  
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  }
+
 .wrapper{
     background-color: #ffffff;
     border-color: #cfcece;
@@ -37,6 +49,7 @@ footer {
     padding-left: 5px;
     padding-right: 5px;
     float: left;
+    height: 100%
 }
 
 .menu {
@@ -47,7 +60,7 @@ vertical-align: center;
 
 .bigcontainer {
     padding-top: 10px;
-    padding-bottom: 18em;
+    padding-bottom: 8em;
     background-image: url('../images/BACKGROUND.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -66,7 +79,7 @@ vertical-align: center;
     padding-left: 5px;
     padding-right: 5px;
     padding-top: 2px;
-    padding-bottom: 10em;
+    padding-bottom: 8em;
 }
 
 .h2container {
@@ -74,12 +87,47 @@ vertical-align: center;
     border-bottom-style: solid;
     border-bottom-width: 3px;
     color: #4aaaa5;
+    padding-left: 2em;
     padding-bottom: 5px;
     vertical-align: center;
     float: top;
 }
 
 .content {
+    padding-left: 2em;
+    padding-right: 2em;
     float: bottom;
+    height: 100%;
 }
 
+.formcontainer {
+    padding-top: 2em;
+}
+
+.gallerycontainer{
+    padding-top: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+
+}
+
+.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+  
+.gallery:hover {
+    border: 1px solid #777;
+}
+  
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+  
+.desc {
+    padding: 15px;
+    text-align: center;
+}
