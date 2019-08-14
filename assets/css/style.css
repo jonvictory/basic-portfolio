@@ -10,8 +10,12 @@ footer {
     border-top: solid;
     border-color:  #4aaaa5;
     Border-width: 4px;
-    padding: 10px 0;
+    padding: 10px 0 15px 0;
     text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
 }
 
 h1 {
@@ -61,7 +65,7 @@ height: 100%;
 
 .bigcontainer {
     padding-top: 10px;
-    padding-bottom: 8em;
+    padding-bottom: 14em;
     background-image: url('../images/BACKGROUND.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -72,7 +76,6 @@ height: 100%;
     border-color: #dddddd;
     color: #777777;
     /* margin: 0 auto; */
-    float: center;
     width: 960px;
     margin-left: auto;
     margin-right: auto;
@@ -163,7 +166,7 @@ ul.nav {
   li.nav a:hover {
     background-color: #ccc;
   }
-  
+
   .clearfix::after {
     content: "";
     display: block;
