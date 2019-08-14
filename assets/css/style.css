@@ -71,7 +71,8 @@ height: 100%;
     background-color: #ffffff;
     border-color: #dddddd;
     color: #777777;
-    margin: 0 auto;
+    /* margin: 0 auto; */
+    float: center;
     width: 960px;
     margin-left: auto;
     margin-right: auto;
@@ -162,3 +163,9 @@ ul.nav {
   li.nav a:hover {
     background-color: #ccc;
   }
+  
+  .clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+    }
