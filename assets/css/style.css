@@ -22,7 +22,7 @@ h1 {
     font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
   }
   
-h2 {
+h2,h3,h4,h5,h6 {
     font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
   }
   
@@ -65,7 +65,7 @@ height: 100%;
 
 .bigcontainer {
     padding-top: 10px;
-    padding-bottom: 18em;
+    padding-bottom: 20em;
     background-image: url('../images/BACKGROUND.jpg');
     background-size: cover;
     background-repeat: no-repeat;
